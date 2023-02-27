@@ -1,3 +1,8 @@
+export type tokenData = {
+  access: string;
+  refresh: string;
+};
+
 export type registrationCredentials = {
   username: string;
   password: string;
